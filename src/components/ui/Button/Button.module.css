@@ -1,0 +1,15 @@
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(36, 36, 36);
+    border: 0;
+    color: #ccc;
+    border-radius: 3px;
+}
+
+.button[disabled] {
+    cursor: default;
+    background-color: #ccc;
+    color: rgb(36, 36, 36);
+}
